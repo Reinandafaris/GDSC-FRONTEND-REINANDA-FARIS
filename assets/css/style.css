@@ -64,6 +64,10 @@ section {
   background-color: var(--primary-dark-green);
 }
 
+.navbar-dekstop.dark-mode {
+  background-color: var(--primary-light-green);
+}
+
 .nav-mobile-sidebar {
   width: 80%;
   height: 100vh;

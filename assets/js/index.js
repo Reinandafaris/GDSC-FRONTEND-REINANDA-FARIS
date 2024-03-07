@@ -2,7 +2,9 @@ const darkMode =
   document.getElementById("icon-moon");
 const body = document.body;
 const footer = document.querySelector("footer");
-const nav = document.querySelector(".navbar");
+const nav = document.querySelector(
+  ".navbar-dekstop"
+);
 
 const toogle = document.querySelector(
   ".menu-toggle"
