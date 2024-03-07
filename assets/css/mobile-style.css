@@ -1,0 +1,96 @@
+@media only screen and (max-width: 576px) {
+  #home {
+    margin-top: 2rem;
+  }
+
+  .navbar-dekstop {
+    padding: 10px 2rem 10px 0;
+  }
+
+  .nav-desktop-list {
+    display: none;
+  }
+
+  .hamburger-icon {
+    display: block;
+  }
+
+  .navbar-mobile {
+    display: none !important;
+  }
+
+  .navbar-mobile.show-nav {
+    display: block !important;
+  }
+
+  .overflow {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    overflow: hidden;
+  }
+
+  .col-sm-5 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .col-sm-6 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .card {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+
+  .card__container {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container {
+    margin: 0;
+    padding: 0;
+  }
+
+  .row {
+    display: flex;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    flex-direction: column;
+  }
+
+  #img-home {
+    order: -1;
+  }
+
+  #text-home {
+    order: 1;
+    margin-top: 20px;
+  }
+
+  .section__ketiga br {
+    display: none;
+  }
+
+  .footer__container {
+    text-align: center;
+    padding: 5rem 0rem 1rem 0rem;
+  }
+
+  .footer__container > div {
+    display: block;
+  }
+
+  .footer__logo,
+  .footer__contact,
+  .footer__social-media,
+  .footer__learning-path {
+    margin-bottom: 20px;
+  }
+}

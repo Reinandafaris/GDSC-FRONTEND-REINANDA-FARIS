@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta
+      name="description"
+      author="Reinanda Faris"
+      content="Front End - Reinanda Faris"
+    />
+    <title>FrontEnd - Reinanda Faris</title>
+
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="./assets/css/style.css"
+    />
+
+    <!-- Mobile Responsive -->
+    <link
+      rel="stylesheet"
+      href="./assets/css/mobile-style.css"
+    />
+
+    <!-- Tablet Responsive -->
+    <link
+      rel="stylesheet"
+      href="./assets/css/tablet-style.css"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar-dekstop">
+        <div>
+          <img
+            src="./assets/images/icon_bharacode.svg"
+            alt="icon_bharacode"
+          />
+        </div>
+
+        <div>
+          <ul
+            id="navlinks"
+            class="nav-desktop-list"
+          >
+            <li>
+              <a class="active-nav" href="#home"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#images">Images</a>
+            </li>
+            <li>
+              <img
+                id="icon-moon"
+                src="./assets/images/icon_moon.svg"
+                class="icon__dark-mode"
+                alt="icon_moon"
+              />
+            </li>
+          </ul>
+        </div>
+
+        <div class="menu-toggle">
+          <img
+            src="./assets/images/icon_hamburger.svg"
+            alt=""
+            class="hamburger-icon"
+          />
+        </div>
+      </div>
+
+      <div class="navbar-mobile">
+        <div class="sidebar-mobile">
+          <div class="overlay"></div>
+
+          <div class="nav-mobile-sidebar">
+            <ul
+              id="navlinks-mobile"
+              class="nav-mobile-list"
+            >
+              <li>
+                <a class="active-nav" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#images">Images</a>
+              </li>
+              <li>
+                <button
+                  id="dark-mobile"
+                  class="btn"
+                >
+                  Dark Mode
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main -->
+    <main>
+      <!-- Section Pertama -->
+      <section id="home">
+        <div class="container">
+          <div
+            class="row align-center justify-between contoh"
+          >
+            <!-- Column Text -->
+            <div id="text-home" class="col-sm-5">
+              <h1>Front End</h1>
+              <p>
+                Terus tingkatkan kemampuan
+                front-end mu untuk mencapai
+                keberhasilan dalam bidang ini dan
+                mulai belajar sekarang!
+              </p>
+
+              <a
+                href="https://gdsc.community.dev/universitas-bhayangkara-jakarta-raya/"
+              >
+                <button class="btn">
+                  Materi Pembelajaran
+                </button>
+              </a>
+            </div>
+
+            <!-- Column Image -->
+            <div id="img-home" class="col-sm-6">
+              <img
+                src="./assets/images/icon_home.svg"
+                alt="icon_home"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Kedua -->
+      <section id="about">
+        <div class="container">
+          <div
+            class="row align-center justify-between"
+          >
+            <!-- Column Image -->
+            <div class="col-sm-5">
+              <img
+                src="./assets/images/icon_about.svg"
+                alt="icon_about"
+                class="img-fluid"
+              />
+            </div>
+
+            <!-- Column Text -->
+            <div class="col-sm-6">
+              <h1>Apa itu Front-End?</h1>
+              <p>
+                Front-End Developer adalah sebuah
+                komunitas yang berfokus pada
+                pengembangan tampilan dan
+                antarmuka pengguna (UI/UX) dalam
+                dunia pemrograman web. Komunitas
+                ini dibentuk oleh mahasiswa dan
+                pengembang pemula yang tertarik
+                dalam teknologi web dan ingin
+                mengembangkan keterampilan mereka
+                dalam front-end development.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Ketiga -->
+      <section id="images">
+        <div class="container text-center">
+          <div class="row justify-center">
+            <!-- Row Text -->
+            <div class="section__ketiga">
+              <h1>Materi Pembelajaran</h1>
+              <p>
+                Jangan biarkan ketakutan atau
+                ketidaktahuan menghalangi <br />
+                Anda. Mulailah belajar teknologi
+                sekarang!
+              </p>
+            </div>
+
+            <!-- Row Cards -->
+            <div
+              class="d-flex justify-center gap-3 card__container"
+              style="margin-top: 20px"
+            >
+              <!-- Card Html -->
+              <div class="card text-center">
+                <div class="card-body">
+                  <img
+                    src="./assets/images/icon_html.svg"
+                    alt="icon_html"
+                  />
+                  <h5>HTML</h5>
+                  <p>
+                    HTML adalah bahasa markup yang
+                    digunakan untuk membuat sebuah
+                    halaman website.
+                  </p>
+                  <a
+                    href="https://en.wikipedia.org/wiki/HTML"
+                    class="btn"
+                    type="button"
+                    >Selengkapnya
+                    <span>
+                      <img
+                        src="./assets/images/icon_arrow-right.svg"
+                        alt="icon_arrow-right"
+                        class="arrow"
+                      />
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Card CSS -->
+              <div class="card text-center">
+                <div class="card-body">
+                  <img
+                    src="./assets/images/icon_css.svg"
+                    alt="icon_css"
+                  />
+                  <h5>CSS</h5>
+                  <p>
+                    CSS bahasa yang digunakan
+                    untuk mengatur tampilan dari
+                    elemen yang ditampilkan
+                    website.
+                  </p>
+                  <a
+                    href="https://en.wikipedia.org/wiki/CSS"
+                    class="btn"
+                    type="button"
+                    >Selengkapnya
+                    <span>
+                      <img
+                        src="./assets/images/icon_arrow-right.svg"
+                        alt="icon_arrow-right"
+                        class="arrow"
+                      />
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Card JavaScript -->
+              <div class="card text-center">
+                <div class="card-body">
+                  <img
+                    src="./assets/images/icon_js.svg"
+                    alt="icon_js"
+                  />
+                  <h5>JavaScript</h5>
+                  <p>
+                    JavaScript adalah bahasa
+                    pemrograman yang sering
+                    digunakan untuk membuat
+                    website lebih interaktif.
+                  </p>
+                  <a
+                    href="https://en.wikipedia.org/wiki/JavaScript"
+                    class="btn"
+                    >Selengkapnya
+                    <span>
+                      <img
+                        src="./assets/images/icon_arrow-right.svg"
+                        alt="icon_arrow-right"
+                        class="arrow"
+                      />
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer__container">
+        <div class="d-flex justify-between">
+          <!-- Footer Logo -->
+          <div
+            class="footer__logo justify-between"
+          >
+            <img
+              src="./assets/images/icon_bharacode.svg"
+              alt="icon_bharacode"
+            />
+            <p>Bhayangkara Code Community</p>
+          </div>
+
+          <!-- Footer Learning Path -->
+          <div class="footer__learning-path">
+            <p>Learning Path</p>
+
+            <ul>
+              <li id="list">
+                <a
+                  href="https://en.wikipedia.org/wiki/Front-end_web_development"
+                  >Front End</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://en.wikipedia.org/wiki/User_experience_design"
+                  >UI/UX</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Footer Contact -->
+          <div class="footer__contact">
+            <p>Contact Us</p>
+
+            <ul>
+              <li id="list">
+                <a
+                  href="https://www.google.com/gmail/about/"
+                >
+                  Bharacode@gmail.com
+                </a>
+              </li>
+              <li>(+62) 081-2759-0284</li>
+            </ul>
+          </div>
+
+          <!-- Footer Social Media -->
+          <div class="footer__social-media">
+            <p>Follow For More</p>
+
+            <div>
+              <a
+                href="https://id-id.facebook.com/"
+              >
+                <img
+                  src="./assets/images/icon_facebook.svg"
+                  class="icon__social-media"
+                  alt="icon_facebook"
+                />
+              </a>
+
+              <a
+                href="https://www.instagram.com/"
+              >
+                <img
+                  src="./assets/images/icon_instagram.svg"
+                  class="icon__social-media"
+                  alt="icon_instagram"
+                />
+              </a>
+
+              <a href="https://www.linkedin.com/">
+                <img
+                  src="./assets/images/icon_linkedin.svg"
+                  class="icon__social-media"
+                  alt="icon_linkedin"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Copyright -->
+      <div class="footer__copyright">
+        <p>© 2024 BharaCode All right reserved</p>
+      </div>
+    </footer>
+
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
