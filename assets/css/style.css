@@ -232,6 +232,32 @@ section {
   background-color: var(--primary-light-green);
 }
 
+.btn-dark {
+  font-size: 1rem;
+  cursor: pointer;
+  line-height: 1.5;
+  font-weight: 400;
+  display: inline-block;
+  border-radius: 0.375rem;
+  padding: 0.375rem 0.75rem;
+  color: var(--primary-white);
+  background-color: var(--primary-black);
+  border: 1px solid var(--primary-black);
+}
+
+.btn-yellow {
+  font-size: 1rem;
+  cursor: pointer;
+  line-height: 1.5;
+  font-weight: 400;
+  display: inline-block;
+  border-radius: 0.375rem;
+  padding: 0.375rem 0.75rem;
+  color: var(--primary-white);
+  background-color: var(--primary-light-green);
+  border: 1px solid var(--primary-light-green);
+}
+
 /* Section Ketiga */
 .card {
   width: 18rem;

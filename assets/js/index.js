@@ -119,3 +119,23 @@ darkMobile.addEventListener("click", () => {
     overlay.classList.remove("show-nav");
   }
 });
+
+var btnDarkMobile = document.getElementById(
+  "dark-mobile"
+);
+
+let isDarkModeMobile = false;
+
+btnDarkMobile.addEventListener("click", () => {
+  isDarkModeMobile = !isDarkModeMobile;
+
+  if (isDarkModeMobile) {
+    btnDarkMobile.innerHTML = "Light Mode";
+    btnDarkMobile.classList.remove("btn-dark");
+    btnDarkMobile.classList.add("btn-yellow");
+  } else {
+    btnDarkMobile.innerHTML = "Dark Mode";
+    btnDarkMobile.classList.remove("btn-yellow");
+    btnDarkMobile.classList.add("btn-dark");
+  }
+});
