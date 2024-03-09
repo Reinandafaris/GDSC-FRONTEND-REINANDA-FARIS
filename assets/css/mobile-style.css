@@ -46,6 +46,10 @@
     margin-bottom: 20px;
   }
 
+  .border-white {
+    border: 1px solid white;
+  }
+
   .card__container {
     width: 100%;
     display: block;

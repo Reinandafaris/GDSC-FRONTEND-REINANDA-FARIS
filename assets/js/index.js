@@ -35,14 +35,13 @@ darkMode.addEventListener("click", () => {
   if (isDarkMode) {
     darkMode.src = "./assets/images/icon_sun.svg";
     borderCard.forEach((card) => {
-      card.style.border = "1px solid white";
+      card.classList.add("border-white");
     });
   } else {
     darkMode.src =
       "./assets/images/icon_moon.svg";
     borderCard.forEach((card) => {
-      card.style.border =
-        "1px solid rgba(0, 0, 0, 0.175)";
+      card.classList.remove("border-white");
     });
   }
 });
@@ -142,9 +141,15 @@ btnDarkMobile.addEventListener("click", () => {
     btnDarkMobile.innerHTML = "Light Mode";
     btnDarkMobile.classList.remove("btn-dark");
     btnDarkMobile.classList.add("btn-yellow");
+    borderCard.forEach((card) => {
+      card.classList.add("border-white");
+    });
   } else {
     btnDarkMobile.innerHTML = "Dark Mode";
     btnDarkMobile.classList.remove("btn-yellow");
     btnDarkMobile.classList.add("btn-dark");
+    borderCard.forEach((card) => {
+      card.classList.remove("border-white");
+    });
   }
 });
