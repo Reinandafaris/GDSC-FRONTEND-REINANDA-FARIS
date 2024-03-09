@@ -20,6 +20,8 @@ const listMobile = document.querySelectorAll(
 const darkMobile = document.getElementById(
   "dark-mobile"
 );
+const borderCard =
+  document.querySelectorAll(".card");
 
 let isDarkMode = false;
 
@@ -32,9 +34,16 @@ darkMode.addEventListener("click", () => {
 
   if (isDarkMode) {
     darkMode.src = "./assets/images/icon_sun.svg";
+    borderCard.forEach((card) => {
+      card.style.border = "1px solid white";
+    });
   } else {
     darkMode.src =
       "./assets/images/icon_moon.svg";
+    borderCard.forEach((card) => {
+      card.style.border =
+        "1px solid rgba(0, 0, 0, 0.175)";
+    });
   }
 });
 
